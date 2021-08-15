@@ -1,0 +1,17 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap');
+*{margin:0; padding:0;}
+body{font-size:12px; line-height:18px; 
+        font-family: 'Noto Sans', sans-serif;
+        }
+nav .d1 .m,
+section h3,.infoBox .more,.viewmore{font-family: 'Sora', sans-serif;}
+/*font-family: 'Sora', sans-serif;*/
+a{color:#111; text-decoration:none;}
+ul{list-style:none;}
+ol{list-style:none;}
+img{border:none; vertical-align:top;}
+
+.cf{}
+.cf:after{content:""; display:block; clear:both;}
