@@ -5,6 +5,7 @@
     <title>소이베베</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/main.css">
+    <script src="js/main.js"></script>
 </head>
 <body>
     <div id="wrap">
@@ -502,25 +503,5 @@
     </div><!--#wrap-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="js/jquery.bxslider.min.js"></script>   
-<script>
-    
-    $(".review .inner ul").bxSlider({
-      auto: true,
-      autoControls: false,
-      autoControlsCombine:false,
-      stopAutoOnClick: false,
-      pager: false,
-    slideWidth:280,
-        minsSlides:3,
-        maxSlides:4,
-         slideMargin:20,
-        infiniteLoop:false
-    });
-     
-    $(".quickMenu").on("click",function(){
-       /* e.preventDefault();*/
-        $(".quickMenu").toggleClass("open");
-    })
-</script>
 </body>
 </html>
